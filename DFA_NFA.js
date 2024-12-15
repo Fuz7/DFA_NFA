@@ -98,7 +98,7 @@ function animateResults(isDfaValid, isNfaValid) {
 
     dfaResult.style.opacity = 0;
     nfaResult.style.opacity = 0;
-
+    
     if (isDfaValid) {
         dfaResult.classList.add('valid');
         dfaResult.classList.remove('invalid');

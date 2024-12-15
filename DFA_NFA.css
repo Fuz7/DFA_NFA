@@ -95,8 +95,10 @@ button:active {
 
 .invalid {
     background-color: #FF3B30; 
-    animation: shake 0.3s ease-in-out; 
+    animation: shake 0.8s ease-in-out; 
 }
+
+
 
 @keyframes shake {
     0% {
@@ -105,11 +107,14 @@ button:active {
     25% {
         transform: translateX(-15px);
     }
-    50% {
+    35% {
         transform: translateX(15px);
     }
-    75% {
+    50% {
         transform: translateX(-15px);
+    }
+    75% {
+        transform: translateX(15px);
     }
     100% {
         transform: translateX(0);
